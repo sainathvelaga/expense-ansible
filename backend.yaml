@@ -15,12 +15,12 @@
 
    - name: to install nodejs
      ansible.builtin.package:
-        - name: nodejs
+          name: nodejs
           state: latest
 
    - name: to install mysql
      ansible.builtin.package:
-        - name: mysql
+          name: mysql
           state: latest
 
    - name: Add the user expense
