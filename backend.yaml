@@ -4,7 +4,7 @@
 
   vars:
     login_password: ExpenseApp@1
-    login_host: backend.sainathdevops.online
+    login_host: db.sainathdevops.online
 
   tasks:
    - name: disable default nodejs
